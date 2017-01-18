@@ -1,0 +1,37 @@
+{ dir:'v' , items: [
+
+{ dir:'h' , items:
+		[
+			{label:'layer2clip1',type:'button',action:'/layer2/clip1/connect' },
+            {label:'layer2clip2',type:'button',action:'/layer2/clip2/connect' },
+			{label:'layer2clip3',type:'button',action:'/layer2/clip3/connect' },
+			{label:'layer2clip4',type:'button',action:'/layer2/clip4/connect' }
+  		]
+	},
+  { dir:'h' , items:
+		[
+			{label:'l2c1preview',type:'button',action:'/layer2/clip1/preview' },
+            {label:'l2c2preview',type:'button',action:'/layer2/clip2/preview' },
+			{label:'l2c3preview',type:'button',action:'/layer2/clip3/preview' },
+			{label:'l2c4preview',type:'button',action:'/layer2/clip4/preview' }
+		]
+	} ,
+	  { dir:'h' , items:
+		[
+			{label:'layer1clip1',type:'button',action:'/layer1/clip1/connect' },
+            {label:'layer1clip2',type:'button',action:'/layer1/clip2/connect' },
+			{label:'layer1clip3',type:'button',action:'/layer1/clip3/connect' },
+			{label:'layer1clip4',type:'button',action:'/layer1/clip4/connect' }
+ 		]
+	} ,
+	  { dir:'h' , items:
+		[
+			{label:'l1c1preview',type:'button',action:'/layer1/clip1/preview' },
+            {label:'l1c2preview',type:'button',action:'/layer1/clip2/preview' },
+			{label:'l1c3preview',type:'button',action:'/layer1/clip3/preview' },
+			{label:'l1c4preview',type:'button',action:'/layer1/clip4/preview' }
+		]
+	} 
+	                                                                                   
+		]
+}
